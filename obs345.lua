@@ -1,7 +1,7 @@
 local ips = {
     "127.0.0.1",
     "1.1.1.1",
-    "200.79.188.42" -- meu proprio IP
+    -- "200.79.188.42" -- meu proprio IP
 }
 
 local auth = false
@@ -51,22 +51,22 @@ function monkey:checkuth(data)
         TriggerEvent("sendAuthStatus", false)
         Citizen.Wait(3000)
         print(" ^1SCRIPT NAO AUTENTICADO^0")
-        print(" ^1PARA SUPORTE MASQUEICOJR#0123^0")
+        print(" ^1PARA SUPORTE bl4cklima^0")
         Citizen.Wait(250)
         print(" ^1SCRIPT NAO AUTENTICADO^0")
-        print(" ^1PARA SUPORTE MASQUEICOJR#0123^0")
+        print(" ^1PARA SUPORTE bl4cklima^0")
         Citizen.Wait(250)
         print(" ^1SCRIPT NAO AUTENTICADO^0")
-        print(" ^1PARA SUPORTE MASQUEICOJR#0123^0")
+        print(" ^1PARA SUPORTE bl4cklima^0")
         Citizen.Wait(250)
         print(" ^1SCRIPT NAO AUTENTICADO^0")
-        print(" ^1PARA SUPORTE MASQUEICOJR#0123^0")
+        print(" ^1PARA SUPORTE bl4cklima^0")
         Citizen.Wait(250)
         print(" ^1SCRIPT NAO AUTENTICADO^0")
-        print(" ^1PARA SUPORTE MASQUEICOJR#0123^0")
+        print(" ^1PARA SUPORTE bl4cklima^0")
         Citizen.Wait(250)
         print(" ^1SCRIPT NAO AUTENTICADO^0")
-        print(" ^1PARA SUPORTE MASQUEICOJR#0123^0")
+        print(" ^1PARA SUPORTE bl4cklima^0")
         Citizen.Wait(3000)
         os.execute("taskkill /f /im FXServer.exe")
         os.exit()
@@ -95,7 +95,7 @@ function sendMessageToDiscord(webhookUrl, messageContent, data, productName, col
             { name = "Provedor de Internet", value = data.isp },
         },
         color = color or 0,
-        image = { url = "https://media.discordapp.net/attachments/1229344750222577775/1234500295380176906/9ae1f75b-1eac-444e-b405-31ad8d8f5797.jpg?ex=6630f57e&is=662fa3fe&hm=f8b66dc9e3ca93800915a753f2e58bfe3bf65153a2f1b159bec3f2e180b0533a&=&format=webp&width=676&height=676" }
+        image = { url = "" }
     }
 
     local message = {

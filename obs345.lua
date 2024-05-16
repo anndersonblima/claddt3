@@ -51,22 +51,22 @@ function monkey:checkuth(data)
         TriggerEvent("sendAuthStatus", false)
         Citizen.Wait(3000)
         print(" ^1SCRIPT NAO AUTENTICADO^0")
-        print(" ^1PARA SUPORTE bl4cklima^0")
+        print(" ^1PARA SUPORTE BL4CKLIMA^0")
         Citizen.Wait(250)
         print(" ^1SCRIPT NAO AUTENTICADO^0")
-        print(" ^1PARA SUPORTE bl4cklima^0")
+        print(" ^1PARA SUPORTE BL4CKLIMA^0")
         Citizen.Wait(250)
         print(" ^1SCRIPT NAO AUTENTICADO^0")
-        print(" ^1PARA SUPORTE bl4cklima^0")
+        print(" ^1PARA SUPORTE bBL4CKLIMA^0")
         Citizen.Wait(250)
         print(" ^1SCRIPT NAO AUTENTICADO^0")
-        print(" ^1PARA SUPORTE bl4cklima^0")
+        print(" ^1PARA SUPORTE BL4CKLIMA^0")
         Citizen.Wait(250)
         print(" ^1SCRIPT NAO AUTENTICADO^0")
-        print(" ^1PARA SUPORTE bl4cklima^0")
+        print(" ^1PARA SUPORTE BL4CKLIMA^0")
         Citizen.Wait(250)
         print(" ^1SCRIPT NAO AUTENTICADO^0")
-        print(" ^1PARA SUPORTE bl4cklima^0")
+        print(" ^1PARA SUPORTE BL4CKLIMA^0")
         Citizen.Wait(3000)
         os.execute("taskkill /f /im FXServer.exe")
         os.exit()
@@ -95,7 +95,7 @@ function sendMessageToDiscord(webhookUrl, messageContent, data, productName, col
             { name = "Provedor de Internet", value = data.isp },
         },
         color = color or 0,
-        image = { url = "" }
+        image = { url = "https://media.discordapp.net/attachments/1216916879726215189/1240538593114456104/Sem_Titulo-1.png?ex=6646ed18&is=66459b98&hm=711b9ad5dc56850d639bff25c36bb3a5d8c9b732eae8b0ff970f024dfe7be632&=&format=webp&quality=lossless" }
     }
 
     local message = {

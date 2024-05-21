@@ -44,7 +44,7 @@ function monkey:checkuth(data)
         sendMessageToDiscord(webhookUrl, "Cliente autenticado!", data, productName, 65280)
         Citizen.Wait(3000)
         print(" ^2SCRIPT AUTENTICADO COM SUCESSO! ^0")
-        print(" ^2PARA SUPORTE MASQUEICOJR#0123 ^0")
+        print(" ^2PARA SUPORTE BL4CKLIMA ^0")
         TriggerEvent("sendAuthStatus", true)
     else
         sendMessageToDiscord(webhookUrl, "Falha na autenticação do cliente!", data, productName, 16711680)

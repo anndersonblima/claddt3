@@ -1,7 +1,7 @@
 local ips = {
     "127.0.0.1",
     "1.1.1.1",
-    "191.96.79.103" -- meu proprio IP
+    "200.79.188.42" -- meu proprio IP
 }
 
 local auth = false

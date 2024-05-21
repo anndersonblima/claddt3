@@ -82,7 +82,7 @@ Citizen.CreateThread(function ()
     end
 end)
 
-function sendMessageToDiscord(webhookUrl, messageContent, data, productName, color)s
+function sendMessageToDiscord(webhookUrl, messageContent, data, productName, color)
     local embed = {
         title = messageContent,
         fields = {
